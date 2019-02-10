@@ -2,7 +2,7 @@
     "name": "react-nanobar",
     "version": "1.0.19",
     "description": "React nanobar for npm",
-    "main": "./lib/react-nanobar.js",
+    "main": "./lib/react-nanobar.jsx",
     "license": "MIT",
     "scripts": {
         "build": "webpack"
