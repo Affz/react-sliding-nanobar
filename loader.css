@@ -1,0 +1,11 @@
+.nanobar-loader {
+  background-color: #91cde2;
+  width: 20px;
+  border-right: solid 4px #39aeb7;
+  height: 3px;
+  animation: nanobarrun 5s linear infinite;
+}
+@-webkit-keyframes nanobarrun {
+  0% { width: 0% }
+  100% { width: 100% }
+}
