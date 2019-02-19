@@ -13,3 +13,5 @@ import ReactSlidingNanobar from 'react-sliding-nanobar';
   <ReactSlidingNanobar/>
 </App>
 ```
+
+Render the component consitionallty based on the requirements.
