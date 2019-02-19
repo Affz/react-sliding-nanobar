@@ -1,6 +1,6 @@
 {
   "name": "react-infinite-nanobar",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "React Sliding Nanobar Component for npm",
   "main": "./lib/react-sliding-nanobar.js",
   "license": "MIT",
