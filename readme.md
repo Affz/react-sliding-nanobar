@@ -9,8 +9,12 @@ npm install react-sliding-nanobar
 ```javascript
 import ReactSlidingNanobar from 'react-sliding-nanobar';
 
+const options = {
+  color: 'green'
+};
+
 <App>
-  <ReactSlidingNanobar/>
+  <ReactSlidingNanobar options={options} />
 </App>
 ```
 
