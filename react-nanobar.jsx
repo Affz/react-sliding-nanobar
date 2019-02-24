@@ -1,8 +1,22 @@
 import * as React from 'react';
 import './loader.css';
-
-export default function NanoBar() {
-    return (
-        <div className="nanobar-loader" />
-    );
+const propTypes = {
+    color: propTypes.string.isRequired
 }
+const defaultProps = {
+    color: ''
+}
+
+class Nanobar extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (
+            <div className="nanobar-loader" />
+        );
+    }
+}
+Nanobar.propTypes = propTypes;
+Nanobar.defaultProps = defaultProps;
+export default Nanobar;
