@@ -13,7 +13,7 @@ class Nanobar extends React.Component {
     }
     render() {
         return (
-            <div className="nanobar-loader" />
+            <div className="nanobar-loader" style={{backgroundColor: this.props.children}}/>
         );
     }
 }
