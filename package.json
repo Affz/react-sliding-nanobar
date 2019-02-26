@@ -1,38 +1,45 @@
 {
-    "name": "react-nanobar",
-    "version": "1.0.19",
-    "description": "React nanobar for npm",
-    "main": "./lib/react-nanobar.jsx",
-    "license": "MIT",
-    "scripts": {
-        "build": "webpack"
-    },
-    "peerDependencies": {
-        "prop-types": "^15.6.0",
-        "react": "^16.0.0",
-        "react-dom": "^16.0.0"
-    },
-    "devDependencies": {
-        "babel-core": "^6.21.0",
-        "babel-loader": "^7.1.4",
-        "babel-preset-env": "^1.6.1",
-        "babel-preset-react": "^6.16.0",
-        "babel-preset-stage-0": "^6.24.1",
-        "path": "^0.12.7",
-        "prop-types": "^15.6.0",
-        "react": "^16.0.0",
-        "react-dom": "^16.0.0",
-        "webpack": "^4.5.0",
-        "webpack-cli": "^3.1.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Affz/React-nanobar"
-    },
-    "keywords": [
-        "react",
-        "Animated Nanobar",
-        "authorization"
-    ],
-    "author": "Afrin Athar"
+  "name": "react-infinite-nanobar",
+  "version": "1.0.20",
+  "description": "React Sliding Nanobar Component for npm",
+  "main": "./lib/react-sliding-nanobar.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Affz/react-sliding-nanobar.git"
+  },
+  "keywords": [
+    "react",
+    "animated nanobar"
+  ],
+  "author": "Afrin Athar",
+  "bugs": {
+    "url": "https://github.com/Affz/react-sliding-nanobar/issues"
+  },
+  "homepage": "https://github.com/Affz/react-sliding-nanobar#readme",
+  "dependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1"
+  }
 }
