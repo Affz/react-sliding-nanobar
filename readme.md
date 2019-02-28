@@ -2,7 +2,7 @@ React Infinite Nanobar is a simple React component to render a nanobar loader wi
 
 
 ```javascript
-npm install react-sliding-nanobar
+npm install react-infinite-nanobar
 
 ```
 
