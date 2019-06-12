@@ -13,9 +13,11 @@ const options = {
   color: 'green'
 };
 
-<App>
-  <ReactSlidingNanobar options={options} />
-</App>
+ReactDOM.render(
+    <ReactSlidingNanobar options={options} />,
+    document.getElementById('root') as HTMLElement
+);
+
 ```
 
 Render the component consitionallty based on the requirements.
